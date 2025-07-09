@@ -3,11 +3,10 @@
 ## 📄 Student-Result-Hub(Student Result Management System)
 
 ```markdown
-# 🎓 Student Result Hub
+## 🎓 Student Result Hub
 
 **Student Result Hub** is a full-stack web application designed to manage and display academic results for students in an organized and secure manner. The platform offers a clean interface for both administrators and students, allowing streamlined management of academic records, notices, and result publishing.
 
----
 
 ## 🌟 Project Highlights
 
@@ -17,7 +16,6 @@
 - Intuitive and responsive UI with Tailwind CSS
 - Built with PHP and MySQL — easy to host on local servers (e.g., XAMPP)
 
----
 
 ## 🚀 Features (with Details)
 
@@ -51,7 +49,6 @@ Admins can:
 - Basic session management to restrict access to sensitive areas
 - Students do not need accounts—access their result via unique roll number
 
----
 
 ## 🛠️ Technologies Used
 
@@ -59,8 +56,6 @@ Admins can:
 - **Backend**: PHP
 - **Database**: MySQL
 - **Local Server**: XAMPP (Apache + MySQL)
-
----
 
 ## 📂 Project Structure
 
@@ -86,8 +81,6 @@ Student\_Result\_Hub/
 └── Style.css                # Custom styling (if any)
 
 ````
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -121,7 +114,6 @@ Open your browser and visit:
 http://localhost/student-result-hub/Homepage.php
 ```
 
----
 
 ## 🧪 Admin Login Credentials
 
@@ -132,7 +124,6 @@ Password: admin123
 
 > You can change the credentials in the database (`registration` table).
 
----
 
 ## 🔐 Security Considerations
 
@@ -141,7 +132,6 @@ Password: admin123
 * ⚠️ Passwords are stored as plaintext – **recommend using `password_hash()`** in production
 * ⚠️ SQL queries are vulnerable to injection – consider using **prepared statements** (PDO or MySQLi)
 
----
 
 ## 📈 Possible Improvements
 
@@ -153,13 +143,11 @@ Password: admin123
 * ✅ Add analytics dashboard for admin
 * ✅ Implement role-based access (admin, teacher, clerk)
 
----
 
 ## 📃 License
 
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute it with proper attribution.
 
----
 
 ## 🙌 Acknowledgements
 
@@ -167,10 +155,7 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 * [XAMPP](https://www.apachefriends.org/) – development environment
 * All open-source contributors who inspire educational tools
 
----
 
 ## 📬 Contact
 
 For queries or feedback, contact: **[nishughost70@gmail.com](mailto:nishughost70@gmail.com)**
-
-```
