@@ -145,33 +145,10 @@ Admin authentication prevents unauthorized access
 
 ✅ Implement role-based access (admin, teacher, clerk)
 
-
-
----
-
-📃 License
-
-This project is licensed under the MIT License. You are free to use, modify, and distribute it with proper attribution.
-
-
----
-
-🙌 Acknowledgements
-
-Tailwind CSS – for rapid UI design
-
-XAMPP – development environment
-
-All open-source contributors who inspire educational tools
-
-
-
 ---
 
 📬 Contact
 
-For queries or feedback, contact: your.email@example.com
+For queries or feedback, contact: nishughost70@gmail.com
 
 ---
-
-Let me know if you want the **documentation file (DOCUMENTATION.md)** expanded in a similar way or if you’d like a *PDF version* of this README.
