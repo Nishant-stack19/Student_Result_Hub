@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Style1.css">
+
+    <title>About</title>
+</head>
+<body>
+    <section class="bg-gray-100 py-12">
+        <div class="max-w-6xl mx-auto px-6">
+            <!-- Title with Bounce Animation -->
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-6 animate-bounce-in">
+                About Our System
+            </h2>
+    
+            <!-- Content Box with Zoom Animation -->
+            <div class="bg-white shadow-lg rounded-lg p-8 opacity-0 scale-90 transition-transform duration-700 ease-out animate-zoom-in">
+                <p class="text-gray-700 text-lg mb-4">
+                    The <strong>Student Result Management System</strong> is a web-based platform designed to simplify result processing 
+                    and enhance accessibility for students, faculty, and administrators.
+                </p>
+    
+                <!-- List Items with Staggered Slide Animation -->
+                <ul class="list-disc pl-6 text-gray-700 space-y-2">
+                    <li class="animate-slide-in-left"><strong>Secure & Efficient:</strong> Ensures accurate and confidential result management.</li>
+                    <li class="animate-slide-in-right delay-200"><strong>Easy Access:</strong> Students can check results anytime from anywhere.</li>
+                    <li class="animate-slide-in-left delay-400"><strong>Admin & Staff Panels:</strong> Role-based access for result entry and modifications.</li>
+                    <li class="animate-slide-in-right delay-600"><strong>Automated Reports:</strong> Generate downloadable PDFs for official records.</li>
+                    <li class="animate-slide-in-left delay-800"><strong>Real-time Updates:</strong> Instant notifications on result publication and changes.</li>
+                </ul>
+    
+                <!-- Fade-in Footer Text -->
+                <p class="text-gray-700 text-lg mt-4 animate-fade-in delay-1000">
+                    Designed with <span class="text-blue-600 font-semibold">PHP</span>, <span class="text-blue-600 font-semibold">MySQL</span>, and 
+                    <span class="text-blue-600 font-semibold">Tailwind CSS</span>, this system ensures a smooth and responsive experience for all users.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Tailwind Custom Animations -->
+    <style>
+    @keyframes bounceIn {
+        0% { transform: scale(0.8); opacity: 0; }
+        60% { transform: scale(1.1); opacity: 1; }
+        100% { transform: scale(1); }
+    }
+    @keyframes zoomIn {
+        from { transform: scale(0.9); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+    }
+    @keyframes slideInLeft {
+        from { transform: translateX(-50px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+    @keyframes slideInRight {
+        from { transform: translateX(50px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    .animate-bounce-in {
+        animation: bounceIn 0.8s ease-out forwards;
+    }
+    .animate-zoom-in {
+        animation: zoomIn 0.8s ease-out forwards;
+    }
+    .animate-slide-in-left {
+        animation: slideInLeft 0.8s ease-out forwards;
+    }
+    .animate-slide-in-right {
+        animation: slideInRight 0.8s ease-out forwards;
+    }
+    .animate-fade-in {
+        animation: fadeIn 1s ease-in forwards;
+    }
+    </style>
+    
+
+</body>
+</html>
